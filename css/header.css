@@ -1,0 +1,5 @@
+.cabecalho {
+    padding: 2em;
+    text-align: center;
+    border: 1px solid var(--cor-secundaria);
+}

@@ -1,0 +1,20 @@
+@import url("css/header.css");
+
+:root {
+    --cor-fundo: #ffffff;
+    --cor-primaria: #000000;
+    --cor-secundaria: #e539H39;
+
+    --font-primaria: "Lexend", sans-serif;
+    --font-secundaria: "Hammersmith One", sans-serif;
+}
+
+
+
+body {
+    background-color: var(--cor-fundo);
+    font-size: 16px;
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    color: var(--cor-primaria);
+}
