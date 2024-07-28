@@ -3,7 +3,7 @@
 :root {
     --cor-fundo: #ffffff;
     --cor-primaria: #000000;
-    --cor-secundaria: #e539H39;
+    --cor-secundaria: #e53939;
 
     --font-primaria: "Lexend", sans-serif;
     --font-secundaria: "Hammersmith One", sans-serif;
@@ -17,4 +17,5 @@ body {
     font-family: var(--font-primaria);
     font-weight: 400;
     color: var(--cor-primaria);
+    box-sizing: border-box;
 }
