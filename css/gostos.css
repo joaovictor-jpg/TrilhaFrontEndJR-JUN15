@@ -1,0 +1,24 @@
+.gostos-pessoais {
+    padding: 1.5em;
+    text-align: center;
+}
+
+.gostos-pessoais__titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cor-secundaria);
+}
+
+.gostos-pessoais__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 0.5em;
+}
+
+.gostos-pessoais__container__texto {
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: justify;
+}
