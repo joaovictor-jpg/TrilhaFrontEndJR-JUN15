@@ -5,6 +5,7 @@
     justify-content: space-between;
     position: relative;
     background-color: var(--cor-primaria);
+    box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .cabecalhe__logo {
