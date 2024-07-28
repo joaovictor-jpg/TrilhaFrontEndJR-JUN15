@@ -3,8 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    width: 88%;
+    position: relative;
     background-color: var(--cor-primaria);
 }
 
