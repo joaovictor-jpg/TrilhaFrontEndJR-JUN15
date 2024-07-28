@@ -79,10 +79,12 @@
         </div>
     </header>
     <section class="sobre" id="sobre">
-        <h2 class="sobre_subtitulo">Bem-Vindo ao meu Perfil</h2>
-        <h1 class="sobre__titulo">João Victor Madeira Da Silva, 24 Anos</h1>
+        <div class="sobre__cabecalho">
+            <h2 class="sobre_subtitulo">Bem-Vindo ao meu Perfil</h2>
+            <h1 class="sobre__titulo">João Victor Madeira Da Silva, 24 Anos</h1>
+        </div>
         <div class="sobre__container">
-            <div>
+            <div class="sobre__container__info">
                 <h2 class="sobre__container__titulo">Sobre</h2>
                 <p class="sobre__container__texto">
                     Sou um rapaz com muita vontade de aprender e evoluir na área de TI. Desejo ser um grande
@@ -90,7 +92,10 @@
                     full-steck com Java react e/ou angular.
                 </p>
             </div>
-            <img src="assets/joao.svg" alt="Desenvolvedor João Victor">
+            <picture class="sobre__container__imagens">
+                <source srcset="assets/Joao(1024).svg" media="(min-width: 1024px)" >
+                <img src="assets/joao.svg" alt="Desenvolvedor João Victor">
+            </picture>
         </div>
     </section>
     <section class="gostos-pessoais" id="gostos-pessoais">

@@ -34,3 +34,44 @@
     font-size: 0.8rem;
     text-align: justify;
 }
+
+@media screen and (min-width: 1024px) {
+    .sobre {
+        padding: 5em 3em;
+        text-align: center;
+    }
+
+    .sobre__cabecalho {
+        margin-bottom: 3em;
+    }
+
+    .sobre_subtitulo {
+        font-size: 1.5rem;
+    }
+
+    .sobre__titulo {
+        font-size: 3rem;
+    }
+
+    .sobre__container {
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 3em;
+    }
+
+    .sobre__container__info {
+        width: 70vh;
+    }
+
+    .sobre__container__titulo {
+        font-size: 1.5rem;
+    }
+
+    .sobre__container__texto {
+        font-size: 1.3rem;
+    }
+
+    .sobre__container__imagens > img {
+        width: 70%;
+    }
+}

@@ -55,6 +55,7 @@
 @media screen and (min-width: 1024px) {
     .cabecalhe {
         padding: 0.5em 2em;
+        justify-content: space-around;
     }
 
     .cabecalhe__logo {
