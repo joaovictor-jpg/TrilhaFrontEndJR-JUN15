@@ -17,6 +17,10 @@
     margin-top: 0.5em;
 }
 
+.gostos-pessoais__container__cuteira {
+    filter: drop-shadow(-5px 7px 7px var(--cor-secundaria));
+}
+
 .gostos-pessoais__container__texto {
     font-size: 0.8rem;
     font-weight: 400;
