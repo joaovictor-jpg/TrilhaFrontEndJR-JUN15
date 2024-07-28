@@ -47,3 +47,53 @@
     font-size: 1.5rem;
     font-weight: 600;
 }
+
+.cabecalhe__container {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalhe {
+        padding: 0.5em 2em;
+    }
+
+    .cabecalhe__logo {
+        width: 7em;
+    }
+
+    .cabecalho__menu-hamburgue {
+        display: none;
+    }
+
+    .cabecalhe__container {
+        display: block;
+    }
+
+    .cabecalhe__container__nagacao {
+        display: flex;
+        align-items: center;
+    }
+
+    .cabecalhe__container__item {
+        text-align: center;
+        margin: 0 0.8em;
+    }
+
+    .cabecalhe__container__item__link {
+        color: var(--cor-fundo);
+        font-size: 1.25rem;
+    }
+
+    .cabecalhe__container__item__link:hover {
+        color: var(--cor-secundaria);
+    }
+
+    .cabecalhe__container__item__link_imagem__github {
+        width: 5em;
+        padding: 1em 0;
+    }
+
+    .cabecalhe__container__item__link_imagem__linkedin {
+        width: 2.5em;
+    }
+}
