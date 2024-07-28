@@ -18,3 +18,19 @@
     font-size: 1rem;
     text-align: justify;
 }
+
+@media screen and (min-width: 1024px) {
+    .motivacoes {
+        margin: 12em;
+        padding: 3em;
+    }
+
+    .motivacoes__titulo {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .motivacoes__texto {
+        font-size: 2rem;
+    }
+}
